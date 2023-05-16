@@ -27,7 +27,7 @@ hidden: true
     },
 ```
 
-function parameter is an object argument with the following  properties:
+_function parameter is an object argument with the following  properties:_
 
 name: `document` 
 type: `object`
