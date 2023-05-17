@@ -19,7 +19,9 @@ hidden: true
 
 ```javascript
 - hidden: ({currentUser, value, parent, document}) => {
-        // option with parent
+        // option with value
+        return value < 5
+       // option with parent
         return parent?.externalLink !== undefined
         // option currentUser
         return !currentUser.roles.find(({name}) => name === 'administrator')
